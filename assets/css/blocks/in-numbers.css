@@ -10,9 +10,17 @@
 	gap: 50px;
 }
 
+.in-numbers__heading {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
 .in-numbers__list {
 	display:flex;
+	justify-content: space-between;
 	gap: 80px;
+	width: 100%;
 }
 
 .in-numbers__item {

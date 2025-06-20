@@ -1,8 +1,8 @@
 <section class="in-numbers">
 	<div class="in-numbers__heading">
-		<h1>
-			La Coop en chiffres
-		</h1>
+		<h2 class="heading-1">
+			<?= $block->heading() ?>
+		</h2>
 	</div>
 	<ul role="list" class="in-numbers__list">
     <?php foreach ($block->icons()->toFiles() as $icon): ?>

@@ -1,0 +1,85 @@
+.footer {
+	background-color: var(--color-accent-light);
+	color: var(--color-accent-dark);
+	padding-inline: 32px;
+	padding-block: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	gap: 3rem;
+}
+
+.footer__links-and-newsletter,
+.footer__opening-and-delivery-times,
+.footer__location {
+	max-width: 420px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.links,
+.newsletter {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.newsletter-description {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer .heading-2 {
+	margin-block: var(--space-rem-4);
+}
+
+form {
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 1.75rem;
+	border: solid 1px black;
+	filter: drop-shadow(4px 4px var(--color-accent-dark));
+	padding: 8px 8px 8px 24px;
+	gap: 16px;
+}
+
+form .email-input {
+	height: 100%;
+	flex-grow: 1;
+	border: none;
+}
+
+form button {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: var(--color-accent-light);
+	color: var(--color-light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.newsletter-description .heading-2 {
+	margin-block-start: 2rem;
+}
+
+.delivery-times .delivery-details {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.delivery-details img {
+	width: 64px;
+	padding-inline-start: 16px;
+}
+
+.footer__location > img {
+	width: 100%;
+}

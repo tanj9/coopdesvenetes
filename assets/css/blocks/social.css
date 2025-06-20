@@ -1,0 +1,10 @@
+.social {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.social svg {
+	width: var(--space-rem-8);
+}

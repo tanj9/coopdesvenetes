@@ -3,3 +3,9 @@
 	font-size: var(--font-size-8);
 	font-weight: var(--font-weight-black);
 }
+
+.heading-2 {
+	line-height: var(--line-height-tight);
+	font-size: var(--font-size-6);
+	font-weight: var(--font-weight-bold);
+}

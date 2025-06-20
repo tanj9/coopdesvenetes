@@ -5,8 +5,8 @@
 /* Global */
 
 @import "global/reset.css" layer(global);
-@import "global/variables.css" layer(global);
 @import "global/global.css" layer(global);
+@import "global/variables.css" layer(global);
 
 /* Compositions */
 
@@ -14,14 +14,16 @@
 
 /* Blocks */
 
-@import "blocks/header.css" layer(blocks);
-@import "blocks/logo.css" layer(blocks);
-@import "blocks/main-navigation.css" layer(blocks);
-@import "blocks/intro.css" layer(blocks);
-@import "blocks/store.css" layer(blocks);
 @import "blocks/features.css" layer(blocks);
+@import "blocks/footer.css" layer(blocks);
+@import "blocks/header.css" layer(blocks);
 @import "blocks/how-it-works.css" layer(blocks);
 @import "blocks/in-numbers.css" layer(blocks);
+@import "blocks/intro.css" layer(blocks);
+@import "blocks/logo.css" layer(blocks);
+@import "blocks/main-navigation.css" layer(blocks);
+@import "blocks/social.css" layer(blocks);
+@import "blocks/store.css" layer(blocks);
 
 /* Utilities */
 

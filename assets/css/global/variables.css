@@ -1,11 +1,11 @@
 :root {
 	/* Colors */
 
-	--color-base-light: oklch(100% 0 0);
-	--color-base-subtle-light: oklch(97.63% 0.007 88.64);
-	--color-accent-light: oklch(76.88% 0.162 116.66);
-	--color-accent-medium: oklch(32.61% 0.039 174.54);
-	--color-accent-dark: oklch(24.05% 0.022 139.43);
+	--color-base-light: oklch(100% 0 0);										/* #FFFFFF white */
+	--color-base-subtle-light: oklch(97.63% 0.007 88.64);  /* #F9F7F2 creme */
+	--color-accent-light: oklch(76.88% 0.162 116.66);			/* #aec02f green-light */
+	--color-accent-medium: oklch(32.61% 0.039 174.54);			/* #1d3b33 green-medium */
+	--color-accent-dark: oklch(24.05% 0.022 139.43);				/* #1a2218 green-dark */
 
 	/* Fonts */
 
@@ -38,6 +38,7 @@
 	--space-px-6: 24px;
 	--space-px-7: 28px;
 	--space-px-8: 32px;
+
 	/* Spaces rem */
 
 	--space-rem-0: 0rem;
@@ -48,4 +49,5 @@
 	--space-rem-5: 1.25rem;
 	--space-rem-6: 1.5rem;
 	--space-rem-7: 1.75rem;
+	--space-rem-8: 2rem;
 }
